@@ -31,8 +31,27 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   citius_dbt_training:
-    # Config indicated by + and applies to all files under models/example/
-    stg_layer:
+    vars:
+      min_nights: 5
+    # +database: "FRIDAY_DB"
+    # +schema: "FRIDAY_SCHEMA"
+    # +persistent_docs:
+    #   columns: true
+    # +database : AIRBNB
+    # +schema : trial
+    +materialized : view
+    # +pre-hook:
+    #   # - "GRANT USAGE ON DATABASE AIRBNB TO ROLE REPORTER"
+    #   # - "GRANT USAGE ON SCHEMA AIRBNB.DEEPAK_DEV TO ROLE REPORTER"
+    #   -  "{{ is_positive_int_udf() }}"
+    # +post-hook:
+    #   - "GRANT SELECT ON {{ this }} TO ROLE REPORTER"
+    
+    dim:
+      +transient: false
       +materialized: table
-      # +transient: false
+
+    src:
+      +materialized : view #ephemeral
+
 

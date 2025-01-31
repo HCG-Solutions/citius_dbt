@@ -1,0 +1,1 @@
+select '{{ env_var("dbt_username") }}' id 

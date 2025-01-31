@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: order_details
+    description: "My Order Table"
+    config: 
+      contract: 
+        enforced: true
+    columns:
+      - name: id
+        data_type: varchar(10)
+        description: "PK Column"
+        constraints:
+          - type: primary_key
+        tests:
+          - unique
+          - not_null
+
+      - name: cust_name
+        data_type: varchar(10)
+        description: "name"
+
+      - name: cust_address
+        data_type: varchar(10)
+        description: "address"
+
+      - name: cust_phone
+        data_type: varchar(10)
+        description: "phone"
+
+      - name: cust_mail
+        data_type: varchar(10)
+        description: "mail"

@@ -74,3 +74,185 @@ Happy modeling!
 [0m11:16:38.744595 [debug] [MainThread]: Command `dbt init` succeeded at 11:16:38.743635 after 384.58 seconds
 [0m11:16:38.746600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275C39CFA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275C64B14F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275C599C490>]}
 [0m11:16:38.748586 [debug] [MainThread]: Flushing usage events
+[0m20:26:52.436533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3BF7F9F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3C27A8C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3C2C16D60>]}
+
+
+============================== 20:26:52.450582 | 35c10c4e-a346-4aff-a189-fd5c1c1c0321 ==============================
+[0m20:26:52.450582 [info ] [MainThread]: Running with dbt=1.8.4
+[0m20:26:52.452787 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run-operation my_mv', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:26:52.454826 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\user\Desktop\Citius Tech\citius_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:26:52.458815 [debug] [MainThread]: Command `dbt run-operation` failed at 20:26:52.457818 after 0.32 seconds
+[0m20:26:52.459813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3BF7F9F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3C2C31310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3C2C31F70>]}
+[0m20:26:52.461808 [debug] [MainThread]: Flushing usage events
+[0m20:28:45.430247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E69848EEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E69A426480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E69AF6CBF0>]}
+
+
+============================== 20:28:45.441247 | c5d5646f-311c-4d62-b6d5-a7c29b950aab ==============================
+[0m20:28:45.441247 [info ] [MainThread]: Running with dbt=1.8.0
+[0m20:28:45.444240 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:28:45.446236 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:28:45.449228 [debug] [MainThread]: Command `cli deps` failed at 20:28:45.449228 after 4.60 seconds
+[0m20:28:45.450225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E69848EEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E69AF6CBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E69AF6C890>]}
+[0m20:28:45.452219 [debug] [MainThread]: Flushing usage events
+[0m20:28:46.191204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDF505DAF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDF2A89550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDF4FFCE60>]}
+
+
+============================== 20:28:46.199845 | 3aa7904f-c613-4a24-a39e-2a74bca2f6ff ==============================
+[0m20:28:46.199845 [info ] [MainThread]: Running with dbt=1.8.0
+[0m20:28:46.201842 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt ', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:28:46.203836 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:28:46.206830 [debug] [MainThread]: Command `cli deps` failed at 20:28:46.205831 after 4.35 seconds
+[0m20:28:46.207829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDF817E480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDF8742B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDF88978C0>]}
+[0m20:28:46.208825 [debug] [MainThread]: Flushing usage events
+[0m20:28:54.756139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E135A7920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E16C9CD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E166AA750>]}
+
+
+============================== 20:28:54.764118 | 92ee683a-c274-487d-9700-2842e16976da ==============================
+[0m20:28:54.764118 [info ] [MainThread]: Running with dbt=1.8.0
+[0m20:28:54.766112 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt ', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:28:54.768107 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:28:54.771100 [debug] [MainThread]: Command `cli deps` failed at 20:28:54.771100 after 0.82 seconds
+[0m20:28:54.772096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E15ED0470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E16C9FA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E16B3C6E0>]}
+[0m20:28:54.773094 [debug] [MainThread]: Flushing usage events
+[0m20:28:54.868951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B356D1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B60EF740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B60EDA00>]}
+
+
+============================== 20:28:54.878923 | df27fc48-9c55-4210-b2b6-a33140d101f8 ==============================
+[0m20:28:54.878923 [info ] [MainThread]: Running with dbt=1.8.0
+[0m20:28:54.882502 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:28:54.884017 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:28:54.888004 [debug] [MainThread]: Command `cli deps` failed at 20:28:54.887006 after 0.68 seconds
+[0m20:28:54.889001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B356D1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B6484A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B65D8B30>]}
+[0m20:28:54.890996 [debug] [MainThread]: Flushing usage events
+[0m10:21:30.863517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D16F8FEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D149D5D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D175EE600>]}
+
+
+============================== 10:21:30.879474 | 7755e060-fefa-45fb-ab53-58915cacb35c ==============================
+[0m10:21:30.879474 [info ] [MainThread]: Running with dbt=1.8.0
+[0m10:21:30.882469 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:30.884461 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:21:30.887453 [debug] [MainThread]: Command `cli deps` failed at 10:21:30.887453 after 16.22 seconds
+[0m10:21:30.889448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D168918E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D13EECAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D16E2CEF0>]}
+[0m10:21:30.891442 [debug] [MainThread]: Flushing usage events
+[0m10:21:31.379140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214E9DD1520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214EA887260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214E9E28380>]}
+
+
+============================== 10:21:31.389112 | c67b017e-6e9d-42f8-abde-182d9faf437d ==============================
+[0m10:21:31.389112 [info ] [MainThread]: Running with dbt=1.8.0
+[0m10:21:31.391108 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt ', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:31.393100 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:21:31.395096 [debug] [MainThread]: Command `cli deps` failed at 10:21:31.395096 after 15.32 seconds
+[0m10:21:31.396093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214EA21D6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214EAA0C080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214EA1DC050>]}
+[0m10:21:31.397091 [debug] [MainThread]: Flushing usage events
+[0m10:21:51.947768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E09B70AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E098D84A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E099A05C0>]}
+
+
+============================== 10:21:51.957806 | 7703a50e-5b6f-4bfa-b996-fcfc1116cd67 ==============================
+[0m10:21:51.957806 [info ] [MainThread]: Running with dbt=1.8.0
+[0m10:21:51.959802 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:51.962801 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:21:51.965785 [debug] [MainThread]: Command `cli deps` failed at 10:21:51.964808 after 15.70 seconds
+[0m10:21:51.967265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E098D84A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E09B2D460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E09C4CB00>]}
+[0m10:21:51.968940 [debug] [MainThread]: Flushing usage events
+[0m10:21:52.147437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BDA8682C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BD7CA6450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BD9FFC9E0>]}
+
+
+============================== 10:21:52.156083 | 8b067e1c-ead9-4678-bf75-95ceda182936 ==============================
+[0m10:21:52.156083 [info ] [MainThread]: Running with dbt=1.8.0
+[0m10:21:52.159075 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt ', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:52.161068 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:21:52.164060 [debug] [MainThread]: Command `cli deps` failed at 10:21:52.164060 after 11.52 seconds
+[0m10:21:52.165057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BDA8682C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BDAA5AE70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BDA92DBB0>]}
+[0m10:21:52.169345 [debug] [MainThread]: Flushing usage events
+[0m11:56:51.267548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252119CC530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002520E0FCEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252112904A0>]}
+
+
+============================== 11:56:51.276559 | 12ec166f-8bfe-482f-b9be-45e0d334651f ==============================
+[0m11:56:51.276559 [info ] [MainThread]: Running with dbt=1.8.0
+[0m11:56:51.278555 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt ', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:56:51.280549 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:56:51.283547 [debug] [MainThread]: Command `cli deps` failed at 11:56:51.283547 after 2.67 seconds
+[0m11:56:51.285535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002520E0FCEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002521164B5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025211A10EC0>]}
+[0m11:56:51.286533 [debug] [MainThread]: Flushing usage events
+[0m11:56:51.357557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD96589B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD9658860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD9658740>]}
+
+
+============================== 11:56:51.367575 | d3c16235-40de-4d5e-84b1-90e34e1e87e1 ==============================
+[0m11:56:51.367575 [info ] [MainThread]: Running with dbt=1.8.0
+[0m11:56:51.368572 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt ', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:56:51.370567 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:56:51.373607 [debug] [MainThread]: Command `cli deps` failed at 11:56:51.372631 after 2.62 seconds
+[0m11:56:51.374605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD9202F00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD9580320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD9507FB0>]}
+[0m11:56:51.375602 [debug] [MainThread]: Flushing usage events
+[0m11:56:52.392087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020113497260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020113497FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020113494920>]}
+
+
+============================== 11:56:52.400581 | 4fdb8fbe-c4c2-4960-90c1-f7c91cc48448 ==============================
+[0m11:56:52.400581 [info ] [MainThread]: Running with dbt=1.8.0
+[0m11:56:52.403579 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m11:56:52.405568 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:56:52.409558 [debug] [MainThread]: Command `cli deps` failed at 11:56:52.409558 after 0.61 seconds
+[0m11:56:52.411551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201131907A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020113121790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020113510440>]}
+[0m11:56:52.412630 [debug] [MainThread]: Flushing usage events
+[0m11:56:52.882694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCF0665D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCF2575F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCF0F46FC0>]}
+
+
+============================== 11:56:52.894648 | f18a07c8-89d1-4efe-810c-ccacbc755db4 ==============================
+[0m11:56:52.894648 [info ] [MainThread]: Running with dbt=1.8.0
+[0m11:56:52.896644 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt ', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:56:52.899630 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\user\Desktop\Citius Tech\citius_dbt\citius_dbt_training\dbt_packages\dbt-utils-0.8.0\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:56:52.902723 [debug] [MainThread]: Command `cli deps` failed at 11:56:52.902183 after 0.97 seconds
+[0m11:56:52.904696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCF3027A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCF317CBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCF317CD10>]}
+[0m11:56:52.905693 [debug] [MainThread]: Flushing usage events
